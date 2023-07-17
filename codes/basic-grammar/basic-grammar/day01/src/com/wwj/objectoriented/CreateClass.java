@@ -15,5 +15,12 @@ public class CreateClass {
         bf1.setAge(24);
         System.out.println(bf1.getName());
         System.out.println(bf1.getAge());
+
+        BoyFriend bf2 = new BoyFriend("东方青仓", 20);
+        System.out.println(bf2.getName());
+        System.out.println(bf2.getAge());
+
+        System.out.printf("my name is %s", "wwj");
+        System.out.println("hello world");
     }
 }
