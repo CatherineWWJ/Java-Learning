@@ -1,4 +1,4 @@
-package com.wwj.Array;
+package com.wwj.array;
 
 // 数组逆置
 public class Reverse {

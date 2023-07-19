@@ -1,4 +1,4 @@
-package com.wwj.Array;
+package com.wwj.array;
 
 public class CreateArray {
     public static void main(String[] args) {

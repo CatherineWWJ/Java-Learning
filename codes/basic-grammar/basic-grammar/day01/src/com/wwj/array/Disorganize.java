@@ -1,4 +1,4 @@
-package com.wwj.Array;
+package com.wwj.array;
 
 import java.util.Random;
 
