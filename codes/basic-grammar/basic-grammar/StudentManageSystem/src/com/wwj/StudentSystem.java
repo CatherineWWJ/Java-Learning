@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StudentSystem {
-    public static void main(String[] args) {
+    public static void startSystem() {
         Scanner sc = new Scanner(System.in);
         int choose; // 用户选择
 
