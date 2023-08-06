@@ -5,10 +5,15 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class App {
+    static ArrayList<User> list = new ArrayList<>();
+    // 静态代码块：初始化一个账号信息
+    static {
+        list.add(new User("admin", "123456","421421202210244321", "13412345678"));
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String choose = null; // 用户选择的操作
-        ArrayList<User> list = new ArrayList<>();
+
         while (true) {
             System.out.println("------------欢迎来到本系统！------------");
             System.out.println("1:登录");

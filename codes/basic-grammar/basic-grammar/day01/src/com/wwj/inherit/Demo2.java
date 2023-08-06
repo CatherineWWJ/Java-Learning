@@ -1,6 +1,6 @@
 package com.wwj.inherit;
 
-// 继承关系中调用成员方法：就近原则
+// 继承关系中调用成员方法：this就会触发就近原则
 public class Demo2 {
     public static void main(String[] args) {
         Student s = new Student();

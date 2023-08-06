@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StudentSystem {
+    // 定义用户选择的常量
+    private static final int ADD_STUDENT = 1;
+    private static final int DEL_STUDENT = 2;
+    private static final int UPDATE_STUDENT = 3;
+    private static final int QUERY_STUDENT = 4;
+    private static final int EXIT = 5;
     public static void startSystem() {
         Scanner sc = new Scanner(System.in);
         int choose; // 用户选择
@@ -15,11 +21,11 @@ public class StudentSystem {
             printTools();
             choose = sc.nextInt();
             switch (choose) {
-                case 1 -> addStudent(list);
-                case 2 -> delStudent(list);
-                case 3 -> updateStudent(list);
-                case 4 -> queryStudent(list);
-                case 5 -> {
+                case ADD_STUDENT -> addStudent(list);
+                case DEL_STUDENT -> delStudent(list);
+                case UPDATE_STUDENT -> updateStudent(list);
+                case QUERY_STUDENT -> queryStudent(list);
+                case EXIT -> {
                     System.out.println("欢迎再次使用本系统！再见！");
                     break loop;
 //                    System.exit(0); // 停止虚拟机运行
